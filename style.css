@@ -79,7 +79,8 @@ h2 {
     /* Adjustment to push the Hero content down below the fixed navbar */
     padding-top: 100px; 
     height: calc(90vh + 100px); 
-    background-color:var(--color-navy);
+    background-image:linear-gradient(rgba(14, 19, 31, 0.9), rgba(14, 19, 31, 0.9)), url(./Edited\ bg\ photo.jpg);
+    
     
     color: var(--color-cream);
     display: flex;
@@ -87,11 +88,11 @@ h2 {
     align-items: center;
     text-align: center;
     position: relative;
-     
-    /* NEW: Faded and Translucent Background Image */
-    background-image: url(./Edited\ bg\ photo.jpg)
+      
+    
+   
         
-        /* Salon Image - Ensure this image exists! */
+        
        
     background-size: cover;
     background-position: center;
